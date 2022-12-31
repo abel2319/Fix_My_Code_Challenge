@@ -9,6 +9,8 @@ class Square():
         width (int):
         height (int):
     """
+    width = 0
+    height = 0
 
     def __init__(self, *args, **kwargs):
         """Initialiwation
@@ -21,9 +23,9 @@ class Square():
 
     def area_of_my_square(self):
         """ Area of the square """
-        return (self.width * self.height)
+        return (self.width * self.width)
 
-    def PermiterOfMySquare(self):
+    def permiterOfMySquare(self):
         """Perimeter of the square
         """
         return ((self.width * 2) + (self.height * 2))
